@@ -8,3 +8,125 @@
             box-sizing:border-box;
 }
 
+/* Standard Styles */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #E99D41;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  max-width: 260px;
+  text-align: center;
+  letter-spacing: .02em;
+  line-height: 1.4285;
+
+}
+
+/*GENERAL MEDIA QUERY - MAX WIDTH */
+.wrapper {
+  padding: 15px;
+
+  @media (min-width: 750px) {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+/* HEADER */
+header .home {
+  display: block;
+  width: 100%;
+  background-image: url("../../images/background_hero.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+}
+
+.main_nav {
+  background: 0 0;
+  z-index:999;
+}
+
+.main_nav .logo {
+  text-align: center;
+
+  @media (min-width: 560px) {
+    text-align: left;
+    margin: 0 3%;
+  }
+}
+
+.main_nav .btn-faq > a,
+.main_nav .btn-support >a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #AFB5BB
+}
+
+.main_nav .btn-faq:hover > a,
+.main_nav .btn-support:hover > a {
+  color: #FFFFFF;
+}
+
+.main_nav .btn-faq {
+  float: left; 
+  width: 48%;
+  text-align: center;
+  margin-top: 20px;
+
+  @media (min-width: 560px){
+    width: auto;
+    margin: 0 3%
+  }
+}
+
+.main_nav .btn-support {
+  float: right;
+  width: 48%;
+  text-align: center;
+  margin-top: 20px;
+
+  @media (min-width: 560px){
+    width: auto;
+    float: right;
+  }
+}
+
+/* HERO */
+.hero {
+  @media (min-width: 620px){
+    padding: 100px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
