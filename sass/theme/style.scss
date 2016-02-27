@@ -15,7 +15,7 @@ html, body {
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: #E99D41;
+  color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,12 +29,12 @@ p {
   text-align: center;
   letter-spacing: .02em;
   line-height: 1.4285;
-
+  margin: 0 auto;
 }
 
 /*GENERAL MEDIA QUERY - MAX WIDTH */
 .wrapper {
-  padding: 15px;
+  padding: 20px;
 
   @media (min-width: 750px) {
     max-width: 1000px;
@@ -45,12 +45,17 @@ p {
 
 /* HEADER */
 header .home {
+  text-align: center;
   display: block;
   width: 100%;
   background-image: url("../../images/background_hero.png");
   background-size: cover;
   background-position: center;
-  min-height: 550px;
+  min-height: 700px;
+
+  @media (min-width: 640px){
+    min-height: 770px;
+  }
 }
 
 .main_nav {
@@ -63,7 +68,11 @@ header .home {
 
   @media (min-width: 560px) {
     text-align: left;
-    margin: 0 3%;
+    margin: 2px 0;
+  }
+
+  @media (min-width: 750px) {
+    margin: 22px 0 0 20px;
   }
 }
 
@@ -80,37 +89,166 @@ header .home {
 }
 
 .main_nav .btn-faq {
-  float: left; 
-  width: 48%;
-  text-align: center;
-  margin-top: 20px;
+  float: right;
+  margin: 10px 40px 0px 0px;
 
-  @media (min-width: 560px){
-    width: auto;
-    margin: 0 3%
+  @media (min-width: 750px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 560px){
+    visibility: hidden;
   }
 }
 
 .main_nav .btn-support {
   float: right;
-  width: 48%;
-  text-align: center;
-  margin-top: 20px;
+  margin: 10px 20px 0px 0px;
 
-  @media (min-width: 560px){
-    width: auto;
-    float: right;
+  @media (min-width: 750px) {
+    margin: 30px 40px 0px 0px;
+  }
+
+  @media (max-width: 560px){
+    visibility: hidden;
+  }
+}
+
+/* BUTTONS */
+.btn1{
+  background: #E99D41;
+  border-radius: 100px;
+  /* TEXT ME DOWNLOAD LIN: */
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #2C3949;
+  letter-spacing: 0.74px;
+  line-height: 15px;
+  padding: 18px 50px;
+
+  @media (max-width: 603px){
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 640px){
+    margin-right: 30px;
+  }
+}
+
+.btn2 {
+  background: #E99D41;
+  border-radius: 100px;
+  /* TEXT ME DOWNLOAD LIN: */
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #2C3949;
+  letter-spacing: 0.74px;
+  line-height: 15px;
+  padding: 18px 43px;
+
+  @media (max-width: 603px) {
+    display: block;
+  }
+ 
+}
+
+.scroll-bottom .scroll-down {
+  position: relative;
+  width: 30px;
+  margin-top: 60px;
+
+  @media (min-width: 640px){
+    width: 40px;
+    margin-top: 300px;
   }
 }
 
 /* HERO */
 .hero {
-  @media (min-width: 620px){
-    padding: 100px 0;
+  @media (min-width: 750px){
+    margin-top: 110px;
+  }
+}
+
+.heroContent {
+  margin-top: -40px;
+
+  @media (min-width: 560px){
+    margin-top: 68px;
+  }
+}
+
+.heroContent .slogan {
+  margin-bottom: 20px;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.heroContent .catch_phrase {
+  margin-bottom: 45px;
+  font-weight: 300;
+
+  @media (min-width: 440px){
+    max-width: 400px;
+  }
+  
+  @media (min-width: 560px){
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 600px;
+  }
+
+  @media (min-width: 640px){
+    max-width: 620px;
+  }
+}
+
+/* LAUNCH FUNDRAISERS */
+#launch {
+  display: table;
+  width: 100%;
+  background-image: url("../../images/fundraiser_background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* BE A DONOR */
+.donor {
+  display: block;
+  width: 100%;
+  background: #E99D41;
+  background-size: cover;
+
+  .donor-image img {
+    width: 98%;
+    display: block;
+    margin-bottom: -15px;
   }
 }
 
 
+/* TRY OUT JUMPSTART */
+.try-out {
+  display: table;
+  width: 100%;
+  background-image: url("../../images/download_background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* FOOTER */
+.footer-nav-block {
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+  background-color: #000000;
+}
 
 
 
