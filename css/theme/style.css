@@ -2900,7 +2900,45 @@ header .home {
   width: 100%;
   background-image: url("../../images/download_background.png");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  text-align: center;
+  min-height: 600px; }
+  @media (min-width: 463px) {
+    .try-out {
+      min-height: 400px; } }
+  @media (min-width: 320px) {
+    .try-out .try-out-content {
+      margin-top: 85px; } }
+  @media (min-width: 433px) {
+    .try-out .try-out-content {
+      margin-top: 105px; } }
+  @media (min-width: 463px) {
+    .try-out .try-out-content {
+      margin-top: 35px; } }
+  @media (min-width: 604px) {
+    .try-out .try-out-content {
+      margin-top: 85px; } }
+  @media (min-width: 640px) {
+    .try-out .try-out-content {
+      margin-top: 85px; } }
+
+.try-out-content .try-title {
+  font-size: 46px;
+  margin-top: 10px;
+  margin-bottom: 17px; }
+
+.try-out-content .try-content {
+  margin-bottom: 35px; }
+  @media (min-width: 440px) {
+    .try-out-content .try-content {
+      max-width: 400px; } }
+  @media (min-width: 560px) {
+    .try-out-content .try-content {
+      max-width: 600px; } }
+  @media (min-width: 705px) {
+    .try-out-content .try-content {
+      font-size: 20px;
+      max-width: 680px; } }
 
 /* FOOTER */
 .footer-nav-block {
