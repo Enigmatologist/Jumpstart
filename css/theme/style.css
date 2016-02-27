@@ -366,7 +366,7 @@
 
   .zero--eleven-twelfths {
     width: 91.666%; } }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 705px) {
   /**
    * Whole
    */
@@ -1071,7 +1071,7 @@
 
   .push--zero--eleven-twelfths {
     left: 91.666%; } }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 705px) {
   /**
    * Whole
    */
@@ -1776,7 +1776,7 @@
 
   .pull--zero--eleven-twelfths {
     right: 91.666%; } }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 705px) {
   /**
    * Whole
    */
@@ -2783,7 +2783,7 @@ header .home {
 
 .heroContent .catch_phrase {
   margin-bottom: 45px;
-  font-weight: 300; }
+  font-weight: 400; }
   @media (min-width: 440px) {
     .heroContent .catch_phrase {
       max-width: 400px; } }
@@ -2804,7 +2804,16 @@ header .home {
   background-size: cover;
   background-position: center;
   min-height: 770px; }
-  @media (min-width: 640px) {
+  @media (min-width: 360px) {
+    #launch {
+      min-height: 900px; } }
+  @media (min-width: 463px) {
+    #launch {
+      min-height: 770px; } }
+  @media (min-width: 520px) {
+    #launch {
+      min-height: 950px; } }
+  @media (min-width: 705px) {
     #launch {
       background-image: url("../../images/fundraiser_background.png"); } }
 
@@ -2813,16 +2822,16 @@ header .home {
   font-size: 46px;
   margin-bottom: 16px;
   margin-top: 10px; }
-  @media (min-width: 640px) {
+  @media (min-width: 705px) {
     .launch-content .feature1-title {
       text-align: left; } }
 
 .launch-content .feature1-content {
-  font-weight: 300; }
-  @media (min-width: 470px) {
+  font-weight: 400; }
+  @media (min-width: 463px) {
     .launch-content .feature1-content {
-      max-width: 360px; } }
-  @media (min-width: 640px) {
+      max-width: 370px; } }
+  @media (min-width: 705px) {
     .launch-content .feature1-content {
       max-width: 399px;
       font-size: 20px;
@@ -2830,13 +2839,13 @@ header .home {
       margin: 0;
       font-weight: 400; } }
 
-@media (min-width: 640px) {
+@media (min-width: 705px) {
   .launch-content {
-    margin-top: 290px; } }
+    margin-top: 400px; } }
 @media (min-width: 750px) {
   .launch-content {
     margin-left: 20px;
-    margin-top: 310px; } }
+    margin-top: 400px; } }
 
 /* BE A DONOR */
 .donor {
@@ -2844,10 +2853,46 @@ header .home {
   width: 100%;
   background: #E99D41;
   background-size: cover; }
+  @media (min-width: 750px) {
+    .donor {
+      padding-bottom: 20px; } }
+  @media (min-width: 1000px) {
+    .donor .donor-content {
+      position: relative;
+      left: 670px;
+      top: 240px; } }
   .donor .donor-image img {
-    width: 98%;
+    width: 100%;
     display: block;
-    margin-bottom: -15px; }
+    margin-bottom: -20px; }
+    @media (min-width: 1000px) {
+      .donor .donor-image img {
+        position: relative;
+        right: 55%; } }
+
+.donor-content .feature2-title {
+  font-size: 46px;
+  color: #2C3949;
+  margin-top: 10px;
+  margin-bottom: 17px; }
+  @media (min-width: 1000px) {
+    .donor-content .feature2-title {
+      text-align: left; } }
+
+.donor-content .feature2-content {
+  margin-bottom: 30px; }
+  @media (min-width: 463px) {
+    .donor-content .feature2-content {
+      max-width: 370px; } }
+  @media (min-width: 705px) {
+    .donor-content .feature2-content {
+      font-size: 20px; } }
+  @media (min-width: 1000px) {
+    .donor-content .feature2-content {
+      max-width: 399px;
+      text-align: left;
+      margin: 0;
+      font-weight: 400; } }
 
 /* TRY OUT JUMPSTART */
 .try-out {

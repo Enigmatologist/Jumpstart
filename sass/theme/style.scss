@@ -192,7 +192,7 @@ header .home {
 
 .heroContent .catch_phrase {
   margin-bottom: 45px;
-  font-weight: 300;
+  font-weight: 400;
 
   @media (min-width: 440px){
     max-width: 400px;
@@ -218,7 +218,19 @@ header .home {
   background-position: center;
   min-height: 770px;
 
-  @media (min-width: 640px){
+  @media (min-width: 360px){
+    min-height: 900px; 
+  }
+
+  @media (min-width: 463px){
+    min-height: 770px;
+  }
+
+  @media (min-width: 520px){
+    min-height: 950px;
+  }
+
+  @media (min-width: 705px){
     background-image: url("../../images/fundraiser_background.png");
   }
 }
@@ -229,19 +241,19 @@ header .home {
   margin-bottom: 16px;
   margin-top: 10px;
 
-  @media (min-width: 640px){
+  @media (min-width: 705px){
     text-align: left;
   }
 }
 
 .launch-content .feature1-content {
-  font-weight: 300;
+  font-weight: 400;
 
-  @media (min-width: 470px){
-    max-width: 360px;
+  @media (min-width: 463px){
+    max-width: 370px;
   }
 
-  @media (min-width: 640px){
+  @media (min-width: 705px){
     max-width: 399px;
     font-size: 20px;
     text-align: left;
@@ -251,13 +263,13 @@ header .home {
 }
 
 .launch-content {
-  @media (min-width: 640px){
-    margin-top: 290px;
+  @media (min-width: 705px){
+    margin-top: 400px;
   }
 
   @media (min-width: 750px){
     margin-left: 20px;
-    margin-top: 310px;
+    margin-top: 400px;
   }
 }
 
@@ -268,10 +280,57 @@ header .home {
   background: #E99D41;
   background-size: cover;
 
+  @media (min-width: 750px){
+    padding-bottom: 20px;
+  }
+
+  .donor-content {
+    @media (min-width:1000px){
+      position: relative;
+      left: 670px;
+      top: 240px;
+    }
+  }
+
   .donor-image img {
-    width: 98%;
+    width: 100%;
     display: block;
-    margin-bottom: -15px;
+    margin-bottom: -20px;
+
+    @media (min-width: 1000px){
+      position: relative;
+      right: 55%;
+    }
+  }
+}
+
+.donor-content .feature2-title {
+  font-size: 46px;
+  color: #2C3949;
+  margin-top: 10px;
+  margin-bottom: 17px;
+
+  @media (min-width: 1000px){
+    text-align: left;
+  }
+}
+
+.donor-content .feature2-content {
+  margin-bottom: 30px;
+
+  @media (min-width: 463px){
+    max-width: 370px;
+  }
+
+  @media (min-width: 705px){
+    font-size: 20px;
+  }
+
+  @media (min-width: 1000px){
+    max-width: 399px;
+    text-align: left;
+    margin: 0;
+    font-weight: 400;
   }
 }
 
