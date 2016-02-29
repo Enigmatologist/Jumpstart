@@ -213,7 +213,7 @@ header .home {
 #launch {
   display: table;
   width: 100%;
-  background-image: url("../../images/fundraiser_background_small.png");
+  background-image: url("../../images/2x/launch_background_small.png");
   background-size: cover;
   background-position: center;
   min-height: 770px;
@@ -231,7 +231,7 @@ header .home {
   }
 
   @media (min-width: 705px){
-    background-image: url("../../images/fundraiser_background.png");
+    background-image: url("../../images/2x/launch_background.png");
   }
 }
 
@@ -285,6 +285,10 @@ header .home {
   }
 
   .donor-content {
+    @media (min-width: 750px){
+      padding-top: 20px;
+    }
+
     @media (min-width:1000px){
       position: relative;
       left: 670px;
@@ -296,6 +300,16 @@ header .home {
     width: 100%;
     display: block;
     margin-bottom: -20px;
+
+    @media (min-width: 750px){
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 875px){
+      width: 85%;
+    }
 
     @media (min-width: 1000px){
       position: relative;

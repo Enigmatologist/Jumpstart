@@ -2800,7 +2800,7 @@ header .home {
 #launch {
   display: table;
   width: 100%;
-  background-image: url("../../images/fundraiser_background_small.png");
+  background-image: url("../../images/2x/launch_background_small.png");
   background-size: cover;
   background-position: center;
   min-height: 770px; }
@@ -2815,7 +2815,7 @@ header .home {
       min-height: 950px; } }
   @media (min-width: 705px) {
     #launch {
-      background-image: url("../../images/fundraiser_background.png"); } }
+      background-image: url("../../images/2x/launch_background.png"); } }
 
 .launch-content .feature1-title {
   color: #E99D41;
@@ -2856,6 +2856,9 @@ header .home {
   @media (min-width: 750px) {
     .donor {
       padding-bottom: 20px; } }
+  @media (min-width: 750px) {
+    .donor .donor-content {
+      padding-top: 20px; } }
   @media (min-width: 1000px) {
     .donor .donor-content {
       position: relative;
@@ -2865,6 +2868,14 @@ header .home {
     width: 100%;
     display: block;
     margin-bottom: -20px; }
+    @media (min-width: 750px) {
+      .donor .donor-image img {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto; } }
+    @media (min-width: 875px) {
+      .donor .donor-image img {
+        width: 85%; } }
     @media (min-width: 1000px) {
       .donor .donor-image img {
         position: relative;
