@@ -205,12 +205,18 @@ a:hover {
   background-position: center;
   min-height: 770px;
 
+  @media (min-width: 350px){
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   @media (min-width: 360px){
     min-height: 900px; 
   }
 
   @media (min-width: 463px){
     min-height: 770px;
+    padding: 0 20px;
   }
 
   @media (min-width: 520px){
@@ -221,11 +227,6 @@ a:hover {
   @media (min-width: 705px){
     background-image: url("../../images/2x/launch_background.png");
     padding-top: 400px;
-  }
-
-  @media (max-width: 1000px){
-    padding-left: 30px;
-    padding-right: 30px;
   }
 }
 
@@ -269,13 +270,13 @@ a:hover {
 
   .donor-content {
     @media (min-width: 750px){
-      padding-top: 20px;
+      padding-top: 10px;
     }
 
     @media (min-width:1000px){
       position: relative;
-      left: 660px;
-      top: 170px;
+      left: 700px;
+      top: 270px;
     }
   }
 
@@ -283,20 +284,27 @@ a:hover {
     width: 100%;
     display: block;
     margin-bottom: -20px;
+    padding-top: 50px;
 
     @media (min-width: 750px){
       width: 90%;
       margin-right: auto;
       margin-left: auto;
+      padding-top: 120px;
     }
 
     @media (min-width: 875px){
-      width: 85%;
+      width: 95%;
     }
 
     @media (min-width: 1000px){
       position: relative;
-      right: 55%;
+      right: 58%;
+      padding-left: 20px;
+    }
+
+    @media (min-width: 1080px){
+      padding-left: 0px;
     }
   }
 }
@@ -361,6 +369,7 @@ a:hover {
 }
 
 .try-out-content .try-title {
+  color: #E99D4 1;
   font-size: 46px;
   margin-top: 10px;
   margin-bottom: 17px;
