@@ -2715,7 +2715,7 @@ a:hover {
 /* BUTTONS */
 .btn1 {
   background: #E99D41;
-  border-radius: 100px;
+  border-radius: 10px;
   /* TEXT ME DOWNLOAD LIN: */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -2730,26 +2730,48 @@ a:hover {
     .btn1 {
       display: block;
       margin-bottom: 20px; } }
+  @media (min-width: 603px) {
+    .btn1 {
+      padding: 18px 61px; } }
   @media (min-width: 640px) {
     .btn1 {
       margin-right: 30px; } }
+  @media (min-width: 770px) {
+    .btn1 {
+      background: none;
+      color: #D8DADA;
+      border: 2px solid #E99D41;
+      padding: 17px 61px; } }
+
+@media (min-width: 770px) {
+  .btn1:hover {
+    color: #FFFFFF; } }
 
 .btn2 {
-  background: #E99D41;
-  border-radius: 100px;
+  border: 2px solid #E99D41;
+  border-radius: 10px;
   /* TEXT ME DOWNLOAD LIN: */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 13px;
-  color: #2C3949;
+  color: #D8DADA;
   letter-spacing: 0.74px;
   line-height: 15px;
-  padding: 18px 43px; }
+  padding: 16px 41px; }
   @media (max-width: 603px) {
     .btn2 {
       display: block; } }
+  @media (min-width: 770px) {
+    .btn2 {
+      background: #E99D41;
+      color: #2C3949;
+      border: none;
+      padding: 18px 41px; } }
+
+.btn2:hover {
+  color: #FFFFFF; }
 
 .scroll-bottom .scroll-down {
   position: relative;
