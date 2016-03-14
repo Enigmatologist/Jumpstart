@@ -164,6 +164,11 @@ a:hover {
   line-height: 15px;
   padding: 16px 41px;
 
+  @media (max-width: 599px){
+    display: none;
+    visibility: hidden;
+  }
+
   @media (max-width: 603px) {
     display: block;
   }
@@ -199,6 +204,10 @@ a:hover {
   font-weight: 700;
   padding-top: 20px;
   margin-top: 0;
+
+  @media (max-width: 559px){
+    padding-top: 40px;
+  }
 
   @media (min-width: 560px){
     padding-top: 130px;
@@ -378,12 +387,16 @@ a:hover {
   padding-top: 30px;
 
   @media (min-width: 360px){
-    padding-top: 40px;
+    padding-top: 60px;
   }
   
-  @media (min-width: 433px){
-    padding-top: 70px;
+  @media (min-width: 418px){
+    padding-top: 110px;
   }
+
+  /*@media (min-width: 433px){
+    padding-top: 70px;
+  }*/
 
   @media (min-width: 463px){
     min-height: 500px;

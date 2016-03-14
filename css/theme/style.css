@@ -2760,6 +2760,10 @@ a:hover {
   letter-spacing: 0.74px;
   line-height: 15px;
   padding: 16px 41px; }
+  @media (max-width: 599px) {
+    .btn2 {
+      display: none;
+      visibility: hidden; } }
   @media (max-width: 603px) {
     .btn2 {
       display: block; } }
@@ -2789,6 +2793,9 @@ a:hover {
   font-weight: 700;
   padding-top: 20px;
   margin-top: 0; }
+  @media (max-width: 559px) {
+    .slogan {
+      padding-top: 40px; } }
   @media (min-width: 560px) {
     .slogan {
       padding-top: 130px; } }
@@ -2929,13 +2936,16 @@ a:hover {
   background-position: center;
   text-align: center;
   min-height: 500px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  /*@media (min-width: 433px){
+    padding-top: 70px;
+  }*/ }
   @media (min-width: 360px) {
     .try-out {
-      padding-top: 40px; } }
-  @media (min-width: 433px) {
+      padding-top: 60px; } }
+  @media (min-width: 418px) {
     .try-out {
-      padding-top: 70px; } }
+      padding-top: 110px; } }
   @media (min-width: 463px) {
     .try-out {
       min-height: 500px; } }
