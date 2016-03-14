@@ -205,8 +205,12 @@ a:hover {
   padding-top: 20px;
   margin-top: 0;
 
-  @media (max-width: 559px){
+  @media (max-width: 374px){
     padding-top: 40px;
+  }
+
+  @media (min-width:375px){
+    padding-top: 100px; 
   }
 
   @media (min-width: 560px){
