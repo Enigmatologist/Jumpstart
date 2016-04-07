@@ -53,8 +53,12 @@ header .home {
   background-position: center;
   min-height: 700px;
 
+  @media (min-width){
+    min-height: 740px;
+  }
+
   @media (min-width: 560px){
-    padding:10px 0px;
+    padding:20px 0px;
   }
 
   @media (min-width: 640px){
@@ -62,7 +66,7 @@ header .home {
   }
 
   @media (min-width: 750px){
-    padding: 30px;
+    padding: 40px 30px 30px 30px;
   }
 }
 
@@ -188,7 +192,27 @@ a:hover {
 .scroll-bottom .scroll-down {
   position: relative;
   width: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
+
+  @media (min-width: 360px){
+    margin-top: 80px;
+  }
+
+  @media (min-width: 375px){
+    margin-top: 50px;
+  }
+
+  @media (min-width: 411px){
+    margin-top: 90px;
+  }
+
+  @media (min-width: 414px){
+    margin-top: 170px;
+  }
+
+  @media (min-width: 435px){
+    margin-top: 210px;
+  }
 
   @media (min-width: 640px){
     width: 40px;
@@ -197,6 +221,11 @@ a:hover {
 }
 
 /* HERO */
+.hero {
+  @media (min-width: 750px){
+  padding-top: 80px;
+  }
+}
 
 .slogan {
   margin-bottom: 20px;
